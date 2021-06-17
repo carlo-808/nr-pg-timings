@@ -1,0 +1,19 @@
+{
+  "name": "pg-query-timings-repro",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "node -r dotenv/config -r newrelic ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "jsonapi-renderer": "^1.2.5",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "newrelic": "^7.5.0",
+    "pg": "^8.2.1",
+    "random-words": "^1.1.1"
+  }
+}
